@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\",
+  "WorkspaceRootPath": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|d:\\\u0444\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0443\u0447\u0451\u0431\u0430\\\u0443\u0447\u0451\u0431\u0430 \u0432\u0443\u0437\\githubproject\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|c:\\users\\marina\\documents\\github\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|d:\\\u0444\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0443\u0447\u0451\u0431\u0430\\\u0443\u0447\u0451\u0431\u0430 \u0432\u0443\u0437\\githubproject\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|c:\\users\\marina\\documents\\github\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|d:\\\u0444\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0443\u0447\u0451\u0431\u0430\\\u0443\u0447\u0451\u0431\u0430 \u0432\u0443\u0437\\githubproject\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|c:\\users\\marina\\documents\\github\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|d:\\\u0444\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0443\u0447\u0451\u0431\u0430\\\u0443\u0447\u0451\u0431\u0430 \u0432\u0443\u0437\\githubproject\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Program.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\Program.cs",
-              "ToolTip": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Program.cs",
+              "ToolTip": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Program.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.Designer.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\Menu.Designer.cs",
-              "ToolTip": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.Designer.cs",
+              "ToolTip": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.Designer.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\Menu.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\Menu.cs",
-              "ToolTip": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "ToolTip": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\Menu.cs",
-              "ToolTip": "D:\\\u0424\u043E\u0442\u043E-\u0432\u0438\u0434\u0435\u043E \u0444\u0430\u0439\u043B\u044B  \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\\\u0423\u0447\u0451\u0431\u0430\\\u0423\u0447\u0451\u0431\u0430 \u0412\u0423\u0417\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\Marina\\Documents\\GitHub\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Optimization_methods_Lab\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T22:30:09.139Z",

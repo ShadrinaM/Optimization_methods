@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Optimization_methods_Lab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4687d76072937b0a9fa5a5ff3f925f9faaa5f524")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35447a38bb7ffbe5f1b8b7d93526ba62546d1637")]
 [assembly: System.Reflection.AssemblyProductAttribute("Optimization_methods_Lab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Optimization_methods_Lab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
