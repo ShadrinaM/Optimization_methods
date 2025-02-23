@@ -18,8 +18,7 @@ namespace Optimization_methods_Labs
             
             // Запускаем главную форму
             Application.Run(menu);
-            
-            
+
         }
     }
 }

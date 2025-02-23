@@ -17,3 +17,22 @@ C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Labs\
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.pdb
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.genruntimeconfig.cache
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\ref\Optimization_methods_Labs.dll
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\bin\Debug\net8.0-windows\Optimization_methods_Labs.exe
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\bin\Debug\net8.0-windows\Optimization_methods_Labs.deps.json
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\bin\Debug\net8.0-windows\Optimization_methods_Labs.runtimeconfig.json
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\bin\Debug\net8.0-windows\Optimization_methods_Labs.dll
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\bin\Debug\net8.0-windows\Optimization_methods_Labs.pdb
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.Menu.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.Properties.Resources.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.WindowLab1.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.csproj.GenerateResource.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.AssemblyInfoInputs.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.AssemblyInfo.cs
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.csproj.CoreCompileInputs.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.sourcelink.json
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.dll
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\refint\Optimization_methods_Labs.dll
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.pdb
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\Optimization_methods_Labs.genruntimeconfig.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Labs\Optimization_methods_Labs\obj\Debug\net8.0-windows\ref\Optimization_methods_Labs.dll

@@ -8,3 +8,13 @@ C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Lab\O
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.exe
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.pdb
 C:\Users\Marina\Documents\GitHub\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.Menu.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\Optimization_methods_Lab.exe.config
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\Optimization_methods_Lab.exe
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\Optimization_methods_Lab.pdb
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.csproj.AssemblyReference.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.Menu.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.Properties.Resources.resources
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.csproj.GenerateResource.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.csproj.CoreCompileInputs.cache
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.exe
+D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\Optimization_methods_Lab.pdb
