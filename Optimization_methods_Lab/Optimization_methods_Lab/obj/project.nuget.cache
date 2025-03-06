@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svixVPWNppw=",
+  "dgSpecHash": "qxFWZ8cDnrQ=",
   "success": true,
-  "projectFilePath": "D:\\Фото-видео файлы  оригинал\\Учёба\\Учёба ВУЗ\\Githubproject\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Optimization_methods_Lab.csproj",
+  "projectFilePath": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Optimization_methods_Lab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MM Shadrina\\.nuget\\packages\\oxyplot.core\\2.2.0\\oxyplot.core.2.2.0.nupkg.sha512",
     "C:\\Users\\MM Shadrina\\.nuget\\packages\\oxyplot.windowsforms\\2.2.0\\oxyplot.windowsforms.2.2.0.nupkg.sha512"

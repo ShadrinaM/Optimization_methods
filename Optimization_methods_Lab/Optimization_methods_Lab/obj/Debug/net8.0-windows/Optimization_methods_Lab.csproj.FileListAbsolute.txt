@@ -42,3 +42,31 @@ D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ
 D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\OxyPlot.WindowsForms.dll
 D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.csproj.AssemblyReference.cache
 D:\Фото-видео файлы  оригинал\Учёба\Учёба ВУЗ\Githubproject\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimiza.FB17F41B.Up2Date
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\Optimization_methods_Lab.exe
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\Optimization_methods_Lab.deps.json
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\Optimization_methods_Lab.runtimeconfig.json
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\Optimization_methods_Lab.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\Optimization_methods_Lab.pdb
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\OxyPlot.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\bin\Debug\net8.0-windows\OxyPlot.WindowsForms.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.csproj.AssemblyReference.cache
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.Menu.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.Properties.Resources.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.WindowLab1.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.WindowLab2.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.WindowLab3.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.WindowLab4.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.csproj.GenerateResource.cache
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.GeneratedMSBuildEditorConfig.editorconfig
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.AssemblyInfoInputs.cache
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.AssemblyInfo.cs
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.csproj.CoreCompileInputs.cache
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.sourcelink.json
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimiza.FB17F41B.Up2Date
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\refint\Optimization_methods_Lab.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.pdb
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.genruntimeconfig.cache
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\ref\Optimization_methods_Lab.dll
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.DichotomyMethod.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.FibonacciMethod.resources
