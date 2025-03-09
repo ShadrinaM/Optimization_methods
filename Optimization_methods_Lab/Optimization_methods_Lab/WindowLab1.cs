@@ -45,5 +45,12 @@ namespace Optimization_methods_Lab
             window.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            GoldenRatioMethod window = new GoldenRatioMethod(this);
+            window.Show();
+            this.Hide();
+        }
     }
 }

@@ -70,3 +70,4 @@ M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\ob
 M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\ref\Optimization_methods_Lab.dll
 M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.DichotomyMethod.resources
 M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.FibonacciMethod.resources
+M:\Git\Optimization_methods\Optimization_methods_Lab\Optimization_methods_Lab\obj\Debug\net8.0-windows\Optimization_methods_Lab.GoldenRatioMethod.resources

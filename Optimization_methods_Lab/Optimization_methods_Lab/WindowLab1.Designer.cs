@@ -66,6 +66,7 @@
             button3.TabIndex = 3;
             button3.Text = "Метод золотого сечения";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // label1
             // 
