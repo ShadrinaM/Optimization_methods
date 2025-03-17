@@ -57,7 +57,7 @@ namespace Optimization_methods_Lab
             int NumCulcFun = 0;
             int k = 0;
             double y = 0, z = 0, f_y = 0, f_z = 0;
-            while ((b-a) > epsilon)
+            while ((b - a) > epsilon)
             {
                 textBox1.AppendText($"Итерация {k}:\r\n");
                 textBox1.AppendText($"Интервал L_{NumCulcFun} = [a,b] = [{a}, {b}]\r\n");
@@ -65,7 +65,7 @@ namespace Optimization_methods_Lab
                 //Вычисление начальных значений
                 if (k == 0)
                 {
-                    y = a + (3- Math.Sqrt(5))/2*(b - a);
+                    y = a + (3 - Math.Sqrt(5)) / 2 * (b - a);
                     z = a + b - y;
                     NumCulcFun += 1;
                 }
@@ -86,7 +86,7 @@ namespace Optimization_methods_Lab
                     textBox1.AppendText($"f_y <= f_z =>\r\na_{k + 1} = a_{k} = {a};\r\nb_{k + 1} = z_{k} = {z}\r\n");
                     z = y;
                     textBox1.AppendText($"z_{k + 1}=y_{k}\r\n");
-                    y = Math.Round( a + b - z, 10);
+                    y = Math.Round(a + b - z, 10);
                 }
                 else
                 {
@@ -99,7 +99,7 @@ namespace Optimization_methods_Lab
 
                 NumCulcFun++;
 
-                if ((b - a) > 2 * delta)
+                if ((b - a) > 2 * epsilon)
                     textBox1.AppendText($"|L_{NumCulcFun}[{a}, {b}]| = {b - a} > {epsilon} => k={k + 1}\r\n");
                 else
                     textBox1.AppendText($"|L_{NumCulcFun}[{a}, {b}]| = {b - a} < {epsilon}\r\n");
@@ -120,7 +120,7 @@ namespace Optimization_methods_Lab
             // Вывод финальный результата
             textBox1.AppendText($"\r\nРезультат:\r\n");
             textBox1.AppendText($"x* = ({a}+{b})/{2} = {x_star}\r\nf(x*) = {f_star}\r\n");
-            textBox1.AppendText($"\r\nСходимость: \r\nR(N)=({Math.Pow((1-(3-Math.Sqrt(5))/2),k-1)})\r\n");
+            textBox1.AppendText($"\r\nСходимость: R(N)=({Math.Pow((1 - (3 - Math.Sqrt(5)) / 2), k - 1)})\r\n");
 
             // Добавление серии на график
             plotModel.Series.Add(functionSeries);
@@ -131,11 +131,6 @@ namespace Optimization_methods_Lab
         }
     }
 }
-
-
-
-
-
 
 
 

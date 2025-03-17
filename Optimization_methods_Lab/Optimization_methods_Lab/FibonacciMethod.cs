@@ -108,7 +108,7 @@ namespace Optimization_methods_Lab
                     // (n-2) итерация
                     textBox1.AppendText($"\r\nИтерация {k + 1}:\r\n");
                     textBox1.AppendText($"Точка y_{k+1} = y_{k} = {y}, f(y) = {f_y}\r\n");
-                    textBox1.AppendText($"Точка z_{k+1} = y_{k} + ε = {z}, f(z) = {f_z}\r\n");
+                    textBox1.AppendText($"Точка z_{k+1} = y_{k} + δ = {z}, f(z) = {f_z}\r\n");
                 }
 
                 if (f_y <= f_z)
