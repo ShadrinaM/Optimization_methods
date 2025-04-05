@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\goldenratiomethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\goldenratiomethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\steepestgradientdescentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\steepestgradientdescentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\steepestgradientdescentmethod.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\steepestgradientdescentmethod.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\steepestgradientdescentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\steepestgradientdescentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\optimization_methods_lab\\windowlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\windowlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\windowlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\windowlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\fibonaccimethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\fibonaccimethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\optimization_methods_lab\\windowlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\windowlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\windowlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\windowlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\windowlab2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\windowlab2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\goldenratiomethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\goldenratiomethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\dichotomymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +62,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SteepestGradientDescentMethod.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "ViewState": "AgIAANABAAAAAAAAAAAgwOQBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:43:57.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowLab2.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\WindowLab2.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\WindowLab2.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAvwB8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:54:32.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowLab2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\WindowLab2.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Optimization_methods_Lab\\WindowLab2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:52:48.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SteepestGradientDescentMethod.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:43:40.745Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SteepestGradientDescentMethod.Designer.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.Designer.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\SteepestGradientDescentMethod.Designer.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.Designer.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\SteepestGradientDescentMethod.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:43:46.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FibonacciMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\FibonacciMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\FibonacciMethod.cs",
               "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\FibonacciMethod.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\FibonacciMethod.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAIwJ8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:27:35.76Z",
+              "WhenOpened": "2025-03-10T10:27:35.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowLab1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab1.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\WindowLab1.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Optimization_methods_Lab\\WindowLab1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:52:56.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowLab1.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab1.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\WindowLab1.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab1.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\WindowLab1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:54:47.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WindowLab2.Designer.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.Designer.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\WindowLab2.Designer.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\WindowLab2.Designer.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\WindowLab2.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwGEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:56:13.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\Menu.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:52:38.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\Menu.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Optimization_methods_Lab\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:52:35.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DichotomyMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\DichotomyMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\DichotomyMethod.cs",
@@ -47,21 +207,19 @@
               "RelativeToolTip": "Optimization_methods_Lab\\DichotomyMethod.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAwwG8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:11:26.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:11:26.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "GoldenRatioMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\GoldenRatioMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\GoldenRatioMethod.cs",
               "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\GoldenRatioMethod.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\GoldenRatioMethod.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAUwMgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:43:39.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T21:43:39.777Z"
             }
           ]
         }

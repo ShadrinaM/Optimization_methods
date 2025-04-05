@@ -20,24 +20,18 @@ namespace Optimization_methods_Lab
             this.StartPosition = FormStartPosition.CenterScreen;
             this.mainForm = menushka;
             this.FormClosed += WindowLab2_FormClosed;
-            Lab2();
         }
-        private void BackToMenu_Click(object sender, EventArgs e)
-        {
-            // Показываем главное окно
-            mainForm.Show();
-            // Закрываем текущее окно
-            this.Close();
-        }
+
         private void WindowLab2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            // Показываем главное окно при закрытии текущего
             mainForm.Show();
         }
 
-        void Lab2()
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            SteepestGradientDescentMethod window = new SteepestGradientDescentMethod(this);
+            window.Show();
+            this.Hide();
         }
     }
 }
