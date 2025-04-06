@@ -33,5 +33,12 @@ namespace Optimization_methods_Lab
             window.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            NewtonMethod window = new NewtonMethod(this);
+            window.Show();
+            this.Hide();
+        }
     }
 }

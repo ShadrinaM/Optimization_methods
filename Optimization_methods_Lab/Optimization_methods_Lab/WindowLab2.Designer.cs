@@ -61,8 +61,9 @@
             button2.Name = "button2";
             button2.Size = new Size(565, 71);
             button2.TabIndex = 6;
-            button2.Text = "Метод ...";
+            button2.Text = "Метод Ньютона с матрицей Гессе";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 

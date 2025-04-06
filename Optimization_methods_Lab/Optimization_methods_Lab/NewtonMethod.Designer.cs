@@ -2,7 +2,7 @@
 
 namespace Optimization_methods_Lab
 {
-    partial class SteepestGradientDescentMethod
+    partial class NewtonMethod
     {
         /// <summary>
         /// Required designer variable.
@@ -32,13 +32,13 @@ namespace Optimization_methods_Lab
         {
             SuspendLayout();
             // 
-            // SteepestGradientDescentMethod
+            // NewtonMethod
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "SteepestGradientDescentMethod";
-            Text = "ЛР2 Метод наискорейшего градиентного спуска";
+            Name = "NewtonMethod";
+            Text = "ЛР2 Метод Ньютона";
             ResumeLayout(false);
 
             // Настройка textBox1

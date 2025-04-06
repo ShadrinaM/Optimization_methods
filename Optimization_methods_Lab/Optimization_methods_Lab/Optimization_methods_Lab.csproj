@@ -13,6 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="NewtonMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SteepestGradientDescentMethod.cs">
       <SubType>Form</SubType>
     </Compile>
