@@ -163,9 +163,5 @@ namespace Optimization_methods_Lab
             double numerator = 5 * Math.Pow(x_k, 2) + 32 * x_k * y_k + 4 * x_k + 197 * Math.Pow(y_k, 2) + 2 * y_k + 1;
             return numerator / denominator;
         }
-
-
-
-
     }
 }
