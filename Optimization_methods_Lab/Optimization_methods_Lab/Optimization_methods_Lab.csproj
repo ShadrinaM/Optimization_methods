@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="NewtonRaphsonMethod.cs" />
     <Compile Update="NewtonMethod.cs">
       <SubType>Form</SubType>
     </Compile>

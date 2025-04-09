@@ -27,39 +27,35 @@ namespace Optimization_methods_Lab
 
         void Lab2_SteepestGradientDescentMethod()
         {
+            // Шаг 1. Инициализация параметров
             double epsilon1 = 0.1;
             double epsilon2 = 0.15;
             double[] x_0 = { 1.1, 1.1 };
             int M = 10; // Максимальное число итераций
-
-            // Выписка из формулировки задания
-            textBox1.AppendText($"Функция f(x) = x_1^2 + 7x_2^2 + x_1x_2 + x_1\r\n");
-            textBox1.AppendText($"x^0=({x_0[0]}; {x_0[1]})\r\n");
-            textBox1.AppendText($"ε_1={epsilon1}; ε_2={epsilon2}\r\n");
-            textBox1.AppendText($"M={M}\r\n\r\n");
-
             double[] x_k = (double[])x_0.Clone();
             double[] x_prev = new double[2];
             int k = 0;
             string exitReason = "";
             bool smallChangesOnLastIteration = false;
 
+            // Выписка из формулировки задания
+            textBox1.AppendText($"Функция f(x) = x₁² + 7x₂² + x₁x₂ + x₁\r\n");
+            textBox1.AppendText($"x^0=({x_0[0]}; {x_0[1]})\r\n");
+            textBox1.AppendText($"ε_1={epsilon1}; ε_2={epsilon2}\r\n");
+            textBox1.AppendText($"M={M}\r\n\r\n");
+               
             while (true)
             {
-
-
-                // Выводим информацию о текущей итерации
                 textBox1.AppendText($"Итерация {k}:\r\n");
                 textBox1.AppendText($"x^{k} = ({x_k[0]}; {x_k[1]})\r\n");
                 textBox1.AppendText($"f(x^{k}) = {CalculateFunction(x_k)}\r\n");
 
-                // Вычисляем градиент
+                // Шаг 3. Вычислить градиент ∇f(x^k)
                 double[] gradient = CalculateGradient(x_k);
                 textBox1.AppendText($"∇f(x^{k}) = ({gradient[0]}; {gradient[1]})\r\n");
 
+                // Шаг 4. Проверить критерий окончания по градиенту||∇f(x^k)|| ≤ ε1
                 double gradNorm = Math.Sqrt(gradient[0] * gradient[0] + gradient[1] * gradient[1]);
-
-                // Проверка условий остановки
                 if (gradNorm < epsilon1)
                 {
                     textBox1.AppendText($"||∇f(x^{k})|| = {gradNorm} < {epsilon1} = ε1\r\n");
@@ -71,6 +67,7 @@ namespace Optimization_methods_Lab
                     textBox1.AppendText($"||∇f(x^{k})|| = {gradNorm} > {epsilon1} = ε1\r\n");
                 }
 
+                // Шаг 5. Проверить максимальное число итераций k ≥ M
                 if (k >= M)
                 {
                     exitReason = $"Превышено максимальное число итераций (k = {k} >= {M} = M)";
@@ -81,24 +78,24 @@ namespace Optimization_methods_Lab
                     textBox1.AppendText($"k = {k} < {M} = M\r\n");
                 }
 
-                // Вычисление шага t_k по заданной формуле
+                // Шаг 6. Вычисление шага t_k по заданной формуле
                 double t_k = CalculateStep(x_k[0], x_k[1]);
 
                 // Сохраняем предыдущее значение x перед обновлением
                 x_prev = (double[])x_k.Clone();
 
-                // Найти точку x^{k+1}
+                // Шаг 7. Найти точку x^{k+1}
                 x_k[0] = x_k[0] - t_k * gradient[0];
                 x_k[1] = x_k[1] - t_k * gradient[1];
 
                 textBox1.AppendText($"t_{k} = {t_k}\r\n");
                 textBox1.AppendText($"x^{k + 1} = ({x_k[0]}; {x_k[1]})\r\n");
 
-                // Проверить условия выхода
+                // Шаг 8. Проверить условия выхода
                 double xDiffNorm = Math.Sqrt(Math.Pow(x_k[0] - x_prev[0], 2) + Math.Pow(x_k[1] - x_prev[1], 2));
                 double fDiff = Math.Abs(CalculateFunction(x_k) - CalculateFunction(x_prev));
-
                 bool smallChangesNow = (xDiffNorm < epsilon2) && (fDiff < epsilon2);
+
                 if (xDiffNorm < epsilon2)
                 {
                     textBox1.AppendText($"||x^{k+1} - x^{k}|| = {xDiffNorm} < {epsilon2}\r\n");
@@ -126,7 +123,8 @@ namespace Optimization_methods_Lab
                     break;
                 }
                 smallChangesOnLastIteration = smallChangesNow;
-                                
+
+                // Обновляем переменные для следующей итерации
                 k++;
                 textBox1.AppendText($"\r\n");
             }
@@ -156,7 +154,7 @@ namespace Optimization_methods_Lab
             return new double[] { Math.Round(df_dx1, 10), Math.Round(df_dx2, 10) };
         }
 
-        // Расчет шага по заданной формуле
+        // Расчет шага по заданной формуле полученной от минимизации
         private double CalculateStep(double x_k, double y_k)
         {
             double denominator = 2 * (13 * Math.Pow(x_k, 2) + 229 * x_k * y_k + 5 * x_k + 1387 * Math.Pow(y_k, 2) + 16 * y_k + 1);

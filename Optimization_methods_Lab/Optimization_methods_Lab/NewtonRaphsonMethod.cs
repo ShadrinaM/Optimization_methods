@@ -6,40 +6,39 @@ using OxyPlot.WindowsForms;
 
 namespace Optimization_methods_Lab
 {
-    public partial class NewtonMethod : Form
+    public partial class NewtonRaphsonMethod : Form
     {
         private WindowLab2 mainForm;
         private TextBox textBox1;
 
-        public NewtonMethod(WindowLab2 menushka)
+        public NewtonRaphsonMethod(WindowLab2 menushka)
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
             this.mainForm = menushka;
-            this.FormClosed += NewtonMethod_FormClosed;
-            Lab2_NewtonMethod();
+            this.FormClosed += NewtonRaphsonMethod_FormClosed;
+            Lab2_NewtonRaphsonMethod();
         }
 
-        private void NewtonMethod_FormClosed(object sender, FormClosedEventArgs e)
+        private void NewtonRaphsonMethod_FormClosed(object sender, FormClosedEventArgs e)
         {
             mainForm.Show();
         }
 
-        void Lab2_NewtonMethod()
+        void Lab2_NewtonRaphsonMethod()
         {
             // Шаг 1. Инициализация параметров
             double epsilon1 = 0.1;
             double epsilon2 = 0.15;
-            double[] x_0 = { 1.1, 1.1 };
-            int M = 10; // Максимальное число итераций
-            double[] x_k = (double[])x_0.Clone();
+            double[] x_k = { 1.1, 1.1 };
+            int M = 10;
             int k = 0;
             string exitReason = "";
             bool smallChangesOnLastIteration = false;
 
             // Выписка из формулировки задания
             textBox1.AppendText($"Функция f(x) = x₁² + 7x₂² + x₁x₂ + x₁\r\n");
-            textBox1.AppendText($"x^0=({x_0[0]}; {x_0[1]})\r\n");
+            textBox1.AppendText($"x^0=({x_k[0]}; {x_k[1]})\r\n");
             textBox1.AppendText($"ε_1={epsilon1}; ε_2={epsilon2}\r\n");
             textBox1.AppendText($"M={M}\r\n\r\n");
 
@@ -89,44 +88,28 @@ namespace Optimization_methods_Lab
                 textBox1.AppendText($"         [{hessianInverse[0, 0]} {hessianInverse[0, 1]}]\r\n");
                 textBox1.AppendText($"         [{hessianInverse[1, 0]} {hessianInverse[1, 1]}]\r\n");
 
-                // Шаг 8. Проверить H^-1(x^k) > 0
-                bool isPositiveDefinite = IsPositiveDefinite(hessianInverse);
+                // Шаг 8. Проверить положительную определенность
                 double[] d_k;
-                if (isPositiveDefinite)
+                if (IsPositiveDefinite(hessianInverse))
                 {
-                    // Шаг 9. Определить d^k = -H^-1(x^k)∇f(x^k)
                     d_k = MultiplyMatrixVector(hessianInverse, gradient);
-                    d_k[0] = -d_k[0];
-                    d_k[1] = -d_k[1];
-                    textBox1.AppendText($"H^-1(x^{k}) > 0, используем метод Ньютона\r\n");
+                    d_k[0] = -d_k[0]; d_k[1] = -d_k[1];
+                    textBox1.AppendText("Используем направление Ньютона\r\n");
                 }
                 else
                 {
-                    // Шаг 10. Положить d^k = -∇f(x^k)
                     d_k = new double[] { -gradient[0], -gradient[1] };
-                    textBox1.AppendText($"H^-1(x^{k}) не положительно определена, используем градиентный спуск\r\n");
+                    textBox1.AppendText("Используем градиентное направление\r\n");
                 }
-
                 textBox1.AppendText($"d^{k} = ({d_k[0]}; {d_k[1]})\r\n");
 
-                // Шаг 10. Найти точку x^{k+1}
-                double[] x_k_plus_1;
-                if (isPositiveDefinite)
-                {
-                    // Используем шаг 1 для метода Ньютона
-                    x_k_plus_1 = new double[] { x_k[0] + d_k[0], x_k[1] + d_k[1] };
-                }
-                else
-                {
-                    // Ищем подходящий шаг t_k для градиентного спуска
-                    double t_k = CalculateStep(x_k, d_k);
-                    //double t_k = CalculateStep(x_k, d_k, gradient);
-                    x_k_plus_1 = new double[] { x_k[0] + t_k * d_k[0], x_k[1] + t_k * d_k[1] };
-                }
-
+                // Шаг 9-11. Вычисляем t_k и новый x
+                double t_k = CalculateStep(x_k, d_k);
+                double[] x_k_plus_1 = { x_k[0] + t_k * d_k[0], x_k[1] + t_k * d_k[1] };
+                textBox1.AppendText($"t_{k} = {t_k}\r\n");
                 textBox1.AppendText($"x^{k + 1} = ({x_k_plus_1[0]}; {x_k_plus_1[1]})\r\n");
 
-                // Шаг 11. Проверить условия выхода
+                // Шаг 12. Проверить условия сходимости
                 double xDiffNorm = Math.Sqrt(Math.Pow(x_k_plus_1[0] - x_k[0], 2) + Math.Pow(x_k_plus_1[1] - x_k[1], 2));
                 double fDiff = Math.Abs(CalculateFunction(x_k_plus_1) - CalculateFunction(x_k));
                 bool smallChangesNow = (xDiffNorm < epsilon2) && (fDiff < epsilon2);
@@ -169,7 +152,7 @@ namespace Optimization_methods_Lab
             textBox1.AppendText("\r\nРезультаты:\r\n");
             textBox1.AppendText($"x* = ({x_k[0]}; {x_k[1]})\r\n");
             textBox1.AppendText($"f(x*) = {CalculateFunction(x_k)}\r\n");
-            textBox1.AppendText($"Количество итераций: {k+1}\r\n");
+            textBox1.AppendText($"Количество итераций: {k + 1}\r\n");
             textBox1.AppendText($"Выход по условию: {exitReason}\r\n\r\n");
             textBox1.AppendText($"Аналитическое решение:\r\n");
             textBox1.AppendText($"x* = (-14/27;1/27) = ({(double)-14 / 27}; {(double)1 / 27})\r\n");
@@ -226,68 +209,60 @@ namespace Optimization_methods_Lab
             };
         }
 
-        // Метод золотого сечения для поиска оптимального шага (такой т.к. формулировка а алгоритме не специфицирует метод).
-        // Значит допустимы: Аналитическое решение и Численные методы: (золотое сечение, параболическая интерполяция, метод Фибоначчи, backtracking line search и др.)
+        //Аналитический метод только для моего уравнения
         private double CalculateStep(double[] x, double[] d)
         {
-            double a = 0;
-            double b = 1;
-            double tau = (Math.Sqrt(5) - 1) / 2; // Золотое сечение ≈ 0.618
-            double epsilon = 1e-6;
+            // Аналитический расчет для f(x) = x₁² + 7x₂² + x₁x₂ + x₁
+            // Раскрываем φ(t) = f(x + t*d) = (x₁ + t*d₁)² + 7(x₂ + t*d₂)² + (x₁ + t*d₁)(x₂ + t*d₂) + (x₁ + t*d₁)
+            // Находим t_min: dφ/dt = 0
+            double d1 = d[0], d2 = d[1];
+            double x1 = x[0], x2 = x[1];
 
-            double x1 = b - tau * (b - a);
-            double x2 = a + tau * (b - a);
+            // Коэффициенты квадратичной формы φ(t) = a*t² + b*t + c
+            double a = d1 * d1 + 7 * d2 * d2 + d1 * d2;
+            double b = 2 * x1 * d1 + 14 * x2 * d2 + x1 * d2 + x2 * d1 + d1;
 
-            while (Math.Abs(b - a) > epsilon)
-            {
-                double[] point1 = { x[0] + x1 * d[0], x[1] + x1 * d[1] };
-                double[] point2 = { x[0] + x2 * d[0], x[1] + x2 * d[1] };
+            if (Math.Abs(a) < 1e-10) // Если направление линейно
+                return (b < 0) ? 1.0 : 0.0; // Выбираем границу интервала
 
-                double f1 = CalculateFunction(point1);
-                double f2 = CalculateFunction(point2);
-
-                if (f1 < f2)
-                {
-                    b = x2;
-                    x2 = x1;
-                    x1 = b - tau * (b - a);
-                }
-                else
-                {
-                    a = x1;
-                    x1 = x2;
-                    x2 = a + tau * (b - a);
-                }
-            }
-
-            return (a + b) / 2;
+            return -b / (2 * a); // t_min = -b/(2a)
         }
 
-        //// Расчет шага для градиентного спуска метод дробления (Backtracking Line Search)
-        //private double CalculateStep(double[] x, double[] d, double[] gradient)
+        //// Метод золотого сечения для поиска оптимального шага (такой т.к. формулировка а алгоритме не специфицирует метод).
+        //// Значит допустимы: Аналитическое решение и Численные методы: (золотое сечение, параболическая интерполяция, метод Фибоначчи, backtracking line search и др.)
+        //private double CalculateStep(double[] x, double[] d)
         //{
-        //    double t = 1.0;
-        //    double c = 0.5; // Коэффициент уменьшения шага
-        //    double rho = 0.5; // Коэффициент достаточного убывания
+        //    double a = 0;
+        //    double b = 1;
+        //    double tau = (Math.Sqrt(5) - 1) / 2; // Золотое сечение ≈ 0.618
+        //    double epsilon = 1e-6;
 
-        //    double f_x = CalculateFunction(x);
-        //    double[] x_new = new double[2];
-        //    double f_x_new;
-        //    double directionalDerivative = gradient[0] * d[0] + gradient[1] * d[1];
+        //    double x1 = b - tau * (b - a);
+        //    double x2 = a + tau * (b - a);
 
-        //    do
+        //    while (Math.Abs(b - a) > epsilon)
         //    {
-        //        x_new[0] = x[0] + t * d[0];
-        //        x_new[1] = x[1] + t * d[1];
-        //        f_x_new = CalculateFunction(x_new);
+        //        double[] point1 = { x[0] + x1 * d[0], x[1] + x1 * d[1] };
+        //        double[] point2 = { x[0] + x2 * d[0], x[1] + x2 * d[1] };
 
-        //        if (f_x_new < f_x + rho * t * directionalDerivative)
-        //            break;
+        //        double f1 = CalculateFunction(point1);
+        //        double f2 = CalculateFunction(point2);
 
-        //        t *= c;
-        //    } while (true);
+        //        if (f1 < f2)
+        //        {
+        //            b = x2;
+        //            x2 = x1;
+        //            x1 = b - tau * (b - a);
+        //        }
+        //        else
+        //        {
+        //            a = x1;
+        //            x1 = x2;
+        //            x2 = a + tau * (b - a);
+        //        }
+        //    }
 
-        //    return t;
+        //    return (a + b) / 2;
         //}
     }
 }

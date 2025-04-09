@@ -51,8 +51,9 @@
             button3.Name = "button3";
             button3.Size = new Size(565, 71);
             button3.TabIndex = 7;
-            button3.Text = "Метод ...";
+            button3.Text = "Метод Ньютона Рафсона";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 

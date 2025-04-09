@@ -7,6 +7,9 @@
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="NewtonRaphsonMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WindowLab1.cs">
       <SubType>Form</SubType>
     </Compile>
