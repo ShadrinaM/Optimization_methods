@@ -116,24 +116,24 @@ namespace Optimization_methods_Lab
 
                 if (xDiffNorm < epsilon2)
                 {
-                    textBox1.AppendText($"||x^{k + 1} - x^{k}|| = {xDiffNorm} < {epsilon2}\r\n");
+                    textBox1.AppendText($"||x^{k + 1} - x^{k}|| = {xDiffNorm} < {epsilon2} = ε_2\r\n");
                     exitReason = $"Условие сходимости по малым изменениям (ε_2 = {epsilon2}) на двух последовательных итерациях\r\n" +
                         $"||x^{k + 1} - x^{k}|| < ε_2";
                 }
                 else
                 {
-                    textBox1.AppendText($"||x^{k + 1} - x^{k}|| = {xDiffNorm} > {epsilon2}\r\n");
+                    textBox1.AppendText($"||x^{k + 1} - x^{k}|| = {xDiffNorm} > {epsilon2} = ε_2\r\n");
                 }
 
                 if (fDiff < epsilon2)
                 {
-                    textBox1.AppendText($"||f(x^{k + 1}) - f(x^{k})|| = {fDiff} < {epsilon2}\r\n");
+                    textBox1.AppendText($"||f(x^{k + 1}) - f(x^{k})|| = {fDiff} < {epsilon2} = ε_2\r\n");
                     exitReason = $"Условие сходимости по малым изменениям (ε_2 = {epsilon2}) на двух последовательных итерациях\r\n" +
                         $"||f(x^{k + 1}) - f(x^{k})|| < ε_2";
                 }
                 else
                 {
-                    textBox1.AppendText($"||f(x^{k + 1} ) - f(x^ {k})|| = {fDiff} > {epsilon2}\r\n");
+                    textBox1.AppendText($"||f(x^{k + 1} ) - f(x^ {k})|| = {fDiff} > {epsilon2} = ε_2\r\n");
                 }
 
                 if (smallChangesNow && smallChangesOnLastIteration)
@@ -247,7 +247,6 @@ namespace Optimization_methods_Lab
 
         //        double f1 = CalculateFunction(point1);
         //        double f2 = CalculateFunction(point2);
-
         //        if (f1 < f2)
         //        {
         //            b = x2;

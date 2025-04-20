@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\fletcherreevesmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\fletcherreevesmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|m:\\git\\optimization_methods\\optimization_methods_lab\\optimization_methods_lab\\newtonraphsonmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA27E8D-5AA7-4EDF-9A24-58735E8B4359}|Optimization_methods_Lab\\Optimization_methods_Lab.csproj|solutionrelative:optimization_methods_lab\\newtonraphsonmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,44 +25,57 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 280,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 286,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewtonRaphsonMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\NewtonRaphsonMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\NewtonRaphsonMethod.cs",
               "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\NewtonRaphsonMethod.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\NewtonRaphsonMethod.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAQwAgBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAkwLMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T18:45:52.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "FletcherReevesMethod.cs",
+              "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\FletcherReevesMethod.cs",
+              "RelativeDocumentMoniker": "Optimization_methods_Lab\\FletcherReevesMethod.cs",
+              "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\FletcherReevesMethod.cs",
+              "RelativeToolTip": "Optimization_methods_Lab\\FletcherReevesMethod.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAiwL0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:32:11.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NewtonMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\NewtonMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\NewtonMethod.cs",
               "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\NewtonMethod.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\NewtonMethod.cs",
-              "ViewState": "AgIAAAIBAAAAAAAAAAAkwCIBAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwIgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T18:54:43.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SteepestGradientDescentMethod.cs",
               "DocumentMoniker": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
               "RelativeDocumentMoniker": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
               "ToolTip": "M:\\Git\\Optimization_methods\\Optimization_methods_Lab\\Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
               "RelativeToolTip": "Optimization_methods_Lab\\SteepestGradientDescentMethod.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T19:21:52.707Z",
               "EditorCaption": ""

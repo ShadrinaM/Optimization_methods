@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Optimization_methods_Lab
 {
@@ -44,6 +45,13 @@ namespace Optimization_methods_Lab
         private void button3_Click(object sender, EventArgs e)
         {
             NewtonRaphsonMethod window = new NewtonRaphsonMethod(this);
+            window.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FletcherReevesMethod window = new FletcherReevesMethod(this);
             window.Show();
             this.Hide();
         }
