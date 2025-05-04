@@ -28,10 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "WindowLab1";
+            // 
+            // PenaltyMethod
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "PenaltyMethod";
+            Text = "ЛР3 Метод штрафов";
+            ResumeLayout(false);
+
+            // Настройка textBox1
+            this.textBox1 = new TextBox();
+            this.textBox1.Dock = DockStyle.Fill; // Прикрепляем к правой части
+            this.textBox1.Multiline = true;
+            this.textBox1.ScrollBars = ScrollBars.Vertical;
+            this.textBox1.Size = new Size(800, 450); // Фиксированная ширина и высота
+            this.textBox1.MinimumSize = new Size(400, 0); // Минимальная ширина
+            this.textBox1.Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular);
+            this.Controls.Add(this.textBox1);
+
         }
 
         #endregion
