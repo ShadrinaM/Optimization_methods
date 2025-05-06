@@ -21,9 +21,7 @@
     <Compile Update="NewtonMethod.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SteepestGradientDescentMethod.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="SteepestGradientDescentMethod.cs" />
     <Compile Update="GoldenRatioMethod.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
